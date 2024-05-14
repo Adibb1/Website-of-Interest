@@ -1,0 +1,1012 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 200vh;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  transition: 0.6s;
+  padding: 10px 30px 0px;
+  z-index: 10000;
+}
+@media (width: 320px) {
+  header {
+    width: 320px;
+  }
+}
+@media (width: 321px) {
+  header {
+    width: 321px;
+  }
+}
+@media (width: 322px) {
+  header {
+    width: 322px;
+  }
+}
+@media (width: 323px) {
+  header {
+    width: 323px;
+  }
+}
+@media (width: 324px) {
+  header {
+    width: 324px;
+  }
+}
+@media (width: 325px) {
+  header {
+    width: 325px;
+  }
+}
+@media (width: 326px) {
+  header {
+    width: 326px;
+  }
+}
+@media (width: 327px) {
+  header {
+    width: 327px;
+  }
+}
+@media (width: 328px) {
+  header {
+    width: 328px;
+  }
+}
+@media (width: 329px) {
+  header {
+    width: 329px;
+  }
+}
+@media (width: 330px) {
+  header {
+    width: 330px;
+  }
+}
+@media (width: 331px) {
+  header {
+    width: 331px;
+  }
+}
+@media (width: 332px) {
+  header {
+    width: 332px;
+  }
+}
+@media (width: 333px) {
+  header {
+    width: 333px;
+  }
+}
+@media (width: 334px) {
+  header {
+    width: 334px;
+  }
+}
+@media (width: 335px) {
+  header {
+    width: 335px;
+  }
+}
+@media (width: 336px) {
+  header {
+    width: 336px;
+  }
+}
+@media (width: 337px) {
+  header {
+    width: 337px;
+  }
+}
+@media (width: 338px) {
+  header {
+    width: 338px;
+  }
+}
+@media (width: 339px) {
+  header {
+    width: 339px;
+  }
+}
+@media (width: 340px) {
+  header {
+    width: 340px;
+  }
+}
+@media (width: 341px) {
+  header {
+    width: 341px;
+  }
+}
+@media (width: 342px) {
+  header {
+    width: 342px;
+  }
+}
+@media (width: 343px) {
+  header {
+    width: 343px;
+  }
+}
+@media (width: 344px) {
+  header {
+    width: 344px;
+  }
+}
+@media (width: 345px) {
+  header {
+    width: 345px;
+  }
+}
+@media (width: 346px) {
+  header {
+    width: 346px;
+  }
+}
+@media (width: 347px) {
+  header {
+    width: 347px;
+  }
+}
+@media (width: 348px) {
+  header {
+    width: 348px;
+  }
+}
+@media (width: 349px) {
+  header {
+    width: 349px;
+  }
+}
+@media (width: 350px) {
+  header {
+    width: 350px;
+  }
+}
+@media (width: 351px) {
+  header {
+    width: 351px;
+  }
+}
+@media (width: 352px) {
+  header {
+    width: 352px;
+  }
+}
+@media (width: 353px) {
+  header {
+    width: 353px;
+  }
+}
+@media (width: 354px) {
+  header {
+    width: 354px;
+  }
+}
+@media (width: 355px) {
+  header {
+    width: 355px;
+  }
+}
+@media (width: 356px) {
+  header {
+    width: 356px;
+  }
+}
+@media (width: 357px) {
+  header {
+    width: 357px;
+  }
+}
+@media (width: 358px) {
+  header {
+    width: 358px;
+  }
+}
+@media (width: 359px) {
+  header {
+    width: 359px;
+  }
+}
+@media (width: 360px) {
+  header {
+    width: 360px;
+  }
+}
+@media (width: 361px) {
+  header {
+    width: 361px;
+  }
+}
+@media (width: 362px) {
+  header {
+    width: 362px;
+  }
+}
+@media (width: 363px) {
+  header {
+    width: 363px;
+  }
+}
+@media (width: 364px) {
+  header {
+    width: 364px;
+  }
+}
+@media (width: 365px) {
+  header {
+    width: 365px;
+  }
+}
+@media (width: 366px) {
+  header {
+    width: 366px;
+  }
+}
+@media (width: 367px) {
+  header {
+    width: 367px;
+  }
+}
+@media (width: 368px) {
+  header {
+    width: 368px;
+  }
+}
+@media (width: 369px) {
+  header {
+    width: 369px;
+  }
+}
+@media (width: 370px) {
+  header {
+    width: 370px;
+  }
+}
+@media (width: 371px) {
+  header {
+    width: 371px;
+  }
+}
+@media (width: 372px) {
+  header {
+    width: 372px;
+  }
+}
+@media (width: 373px) {
+  header {
+    width: 373px;
+  }
+}
+@media (width: 374px) {
+  header {
+    width: 374px;
+  }
+}
+@media (width: 375px) {
+  header {
+    width: 375px;
+  }
+}
+@media (width: 376px) {
+  header {
+    width: 376px;
+  }
+}
+@media (width: 377px) {
+  header {
+    width: 377px;
+  }
+}
+@media (width: 378px) {
+  header {
+    width: 378px;
+  }
+}
+@media (width: 379px) {
+  header {
+    width: 379px;
+  }
+}
+@media (width: 380px) {
+  header {
+    width: 380px;
+  }
+}
+@media (width: 381px) {
+  header {
+    width: 381px;
+  }
+}
+@media (width: 382px) {
+  header {
+    width: 382px;
+  }
+}
+@media (width: 383px) {
+  header {
+    width: 383px;
+  }
+}
+@media (width: 384px) {
+  header {
+    width: 384px;
+  }
+}
+@media (width: 385px) {
+  header {
+    width: 385px;
+  }
+}
+@media (width: 386px) {
+  header {
+    width: 386px;
+  }
+}
+@media (width: 387px) {
+  header {
+    width: 387px;
+  }
+}
+@media (width: 388px) {
+  header {
+    width: 388px;
+  }
+}
+@media (width: 389px) {
+  header {
+    width: 389px;
+  }
+}
+@media (width: 390px) {
+  header {
+    width: 390px;
+  }
+}
+@media (width: 391px) {
+  header {
+    width: 391px;
+  }
+}
+@media (width: 392px) {
+  header {
+    width: 392px;
+  }
+}
+@media (width: 393px) {
+  header {
+    width: 393px;
+  }
+}
+@media (width: 394px) {
+  header {
+    width: 394px;
+  }
+}
+@media (width: 395px) {
+  header {
+    width: 395px;
+  }
+}
+@media (width: 396px) {
+  header {
+    width: 396px;
+  }
+}
+@media (width: 397px) {
+  header {
+    width: 397px;
+  }
+}
+@media (width: 398px) {
+  header {
+    width: 398px;
+  }
+}
+@media (width: 399px) {
+  header {
+    width: 399px;
+  }
+}
+@media (width: 400px) {
+  header {
+    width: 400px;
+  }
+}
+@media (width: 401px) {
+  header {
+    width: 401px;
+  }
+}
+@media (width: 402px) {
+  header {
+    width: 402px;
+  }
+}
+@media (width: 403px) {
+  header {
+    width: 403px;
+  }
+}
+@media (width: 404px) {
+  header {
+    width: 404px;
+  }
+}
+@media (width: 405px) {
+  header {
+    width: 405px;
+  }
+}
+@media (width: 406px) {
+  header {
+    width: 406px;
+  }
+}
+@media (width: 407px) {
+  header {
+    width: 407px;
+  }
+}
+@media (width: 408px) {
+  header {
+    width: 408px;
+  }
+}
+@media (width: 409px) {
+  header {
+    width: 409px;
+  }
+}
+@media (width: 410px) {
+  header {
+    width: 410px;
+  }
+}
+@media (width: 411px) {
+  header {
+    width: 411px;
+  }
+}
+@media (width: 412px) {
+  header {
+    width: 412px;
+  }
+}
+@media (width: 413px) {
+  header {
+    width: 413px;
+  }
+}
+@media (width: 414px) {
+  header {
+    width: 414px;
+  }
+}
+@media (width: 415px) {
+  header {
+    width: 415px;
+  }
+}
+@media (width: 416px) {
+  header {
+    width: 416px;
+  }
+}
+@media (width: 417px) {
+  header {
+    width: 417px;
+  }
+}
+@media (width: 418px) {
+  header {
+    width: 418px;
+  }
+}
+@media (width: 419px) {
+  header {
+    width: 419px;
+  }
+}
+@media (width: 420px) {
+  header {
+    width: 420px;
+  }
+}
+@media (width: 421px) {
+  header {
+    width: 421px;
+  }
+}
+@media (width: 422px) {
+  header {
+    width: 422px;
+  }
+}
+@media (width: 423px) {
+  header {
+    width: 423px;
+  }
+}
+
+header.sticky {
+  padding: 10px 30px 0px;
+  background: white;
+  position: fixed;
+}
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: 0.6s;
+  margin: 0px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 1000;
+}
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+.banner img#back {
+  mix-blend-mode: screen;
+}
+
+#what-text1::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: gold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#what-text2::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: gold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+/* ### */
+.center {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stack-area {
+  width: 100%;
+  height: 300vh;
+  position: static;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.right,
+.left {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  flex-basis: 50%;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  box-sizing: border-box;
+  padding: 35px;
+  border-radius: 6mm;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.5s ease-in-out;
+}
+.card:nth-child(1) {
+  background-image: url(assets/gemgrab.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 6;
+}
+
+.card:nth-child(2) {
+  background-image: url(assets/bounty.avif);
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+}
+.card:nth-child(3) {
+  background-image: url(assets/heist.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 4;
+}
+.card:nth-child(4) {
+  background-image: url(assets/ball.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+}
+.card:nth-child(5) {
+  background-image: url(assets/hotzone.jpg_large);
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+.card:nth-child(6) {
+  background-image: url(assets/knockout.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.sub {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 6mm 6mm 0 0;
+  color: gold;
+}
+.content {
+  font-family: poppins;
+  font-size: 44px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 0 0 6mm 6mm;
+  color: white;
+}
+.card.active {
+  transform-origin: bottom left;
+}
+.left {
+  align-items: center;
+  flex-direction: column;
+}
+.title-mode {
+  width: 420px;
+  font-size: 84px;
+  font-family: poppins;
+  font-weight: 700;
+  line-height: 88px;
+  text-shadow: 2px 2px #fff;
+  padding-top: 50px;
+}
+.sub-title {
+  width: 420px;
+  font-family: poppins;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.sub-title button {
+  font-family: poppins;
+  font-size: 14px;
+  padding: 15px 30px;
+  background: black;
+  color: white;
+  border-radius: 8mm;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* #p##### */
+.center2 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stack-area2 {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.right2,
+.left2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  flex-basis: 50%;
+}
+.cards2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.card2 {
+  width: 350px;
+  height: 350px;
+  box-sizing: border-box;
+  padding: 35px;
+  border-radius: 6mm;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.card2:nth-child(1) {
+  background-image: url(assets/showdown.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 4;
+}
+.card2:nth-child(2) {
+  background-image: url(assets/duels.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+}
+
+.sub2 {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 6mm 6mm 0 0;
+  color: gold;
+}
+.content2 {
+  font-family: poppins;
+  font-size: 44px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 0 0 6mm 6mm;
+  color: #fff;
+}
+.card2.active2 {
+  transform-origin: bottom left;
+}
+.left2 {
+  align-items: center;
+  flex-direction: column;
+}
+.title-mode2 {
+  width: 420px;
+  font-size: 84px;
+  font-family: poppins;
+  font-weight: 700;
+  line-height: 88px;
+  text-shadow: 2px 2px #fff;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+  .sub {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 22px;
+  }
+  .card2 {
+    width: 300px;
+    height: 300px;
+  }
+  .sub2 {
+    font-size: 20px;
+  }
+  .content2 {
+    font-size: 22px;
+  }
+  .title-mode {
+    font-size: 60px;
+  }
+  .title-mode2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 639px) {
+  .card {
+    width: 250px;
+    height: 250px;
+  }
+  .card2 {
+    width: 250px;
+    height: 250px;
+  }
+  .sub {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 20px;
+  }
+  .sub2 {
+    font-size: 20px;
+  }
+  .content2 {
+    font-size: 20px;
+  }
+  .title-mode {
+    font-size: 60px;
+    width: 80%;
+  }
+  .title-mode2 {
+    font-size: 60px;
+  }
+}
+/*CSS Code for responsiveness*/
+@media (max-width: 767px) {
+  .left {
+    position: relative;
+    width: 100vw;
+  }
+  .left2 {
+    position: relative;
+    width: 100vw;
+  }
+}
+.shiny1 {
+  scale: 1;
+  animation: shiny1 2s ease 0s infinite alternate;
+}
+@keyframes shiny1 {
+  from {
+    scale: 1;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  to {
+    scale: 0;
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+.shiny2 {
+  scale: 1;
+  animation: shiny2 2s ease 0.5s infinite alternate;
+}
+@keyframes shiny2 {
+  from {
+    scale: 1;
+    opacity: 1;
+  }
+  to {
+    scale: 0;
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+.shiny3 {
+  scale: 1;
+  animation: shiny3 2s ease 1s infinite alternate;
+}
+@keyframes shiny3 {
+  from {
+    scale: 1;
+    opacity: 1;
+  }
+  to {
+    scale: 0;
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+.shiny4 {
+  scale: 1;
+  animation: shiny4 2s ease 1.5s infinite alternate;
+}
+@keyframes shiny4 {
+  from {
+    scale: 1;
+    opacity: 1;
+  }
+  to {
+    scale: 0;
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+#download {
+  background-image: url(assets/download-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.uwu {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px 40px;
+}
+@media (max-width: 767px) {
+  .navbuton {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

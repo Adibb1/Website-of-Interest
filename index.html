@@ -1,0 +1,2629 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth no-scrollbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adib</title>
+    <link rel="icon" href="assets/logo.svg" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+  <!-- ###################################################################### -->
+  <body class="">
+    <header class="flex justify-center items-center">
+      <div class="flex justify-between items-center w-full">
+        <a href="#" class="logo"
+          ><img
+            class="h-[40px] my-1 object-cover"
+            src="assets/Brawl_Stars_logo.png"
+            alt=""
+        /></a>
+        <div class="flex justify-end h-full">
+          <ul
+            class="navbuton flex absolute translate-y-10 translate-x-[3000px] py-10 rounded-3xl w-1/2 flex-col transition-all duration-300 h-auto md:w-auto md:py-0 md:translate-y-0 md:static md:flex-row md:translate-x-0"
+          >
+            <li class="mb-5 md:mb-0">
+              <a
+                href="#what"
+                class="hover:bg-white hover:text-black py-1 px-2 rounded-full"
+                >What?</a
+              >
+            </li>
+            <li class="mb-5 md:mb-0">
+              <a
+                href="#modes"
+                class="hover:bg-white hover:text-black py-1 px-2 rounded-full"
+                >Modes</a
+              >
+            </li>
+            <li class="mb-5 md:mb-0">
+              <a
+                href="#brawlers"
+                class="hover:bg-white hover:text-black py-1 px-2 rounded-full"
+                >Brawlers</a
+              >
+            </li>
+            <li class="mb-5 md:mb-0">
+              <a
+                href="#Currency"
+                class="hover:bg-white hover:text-black py-1 px-2 rounded-full"
+                >Currency</a
+              >
+            </li>
+            <li class="mb-5 md:mb-0">
+              <a
+                href="#Download"
+                class="hover:bg-white hover:text-black py-1 px-2 rounded-full"
+                >Download</a
+              >
+            </li>
+          </ul>
+          <div class="flex items-center gap-6 mr-5">
+            <ion-icon
+              onclick="ontogglemenu(this)"
+              class="block md:hidden text-3xl cursor-pointer"
+              name="menu-outline"
+            ></ion-icon>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner w-full">
+      <img
+        id="back"
+        class="h-full"
+        src="assets/back.svg"
+        alt="aiwnaoicbanucbe"
+      />
+      <img id="mid" class="h-full" src="assets/smoke.svg" alt="" />
+      <img id="front" class="h-full" src="assets/chara.svg" alt="" />
+      <img id="logo-head" src="assets/logo.svg" alt="" />
+    </section>
+
+    <main class="">
+      <section
+        id="what"
+        class="min-h-screen pt-20 flex flex-col justify-center items-center"
+      >
+        <div
+          class="title1 w-full flex justify-center items-center text-center text-[50px] md:text-[70px] lg:text-[90px] font-[600] flex-wrap"
+        >
+          <span class="text-yellow-500">What&nbsp</span> Is&nbsp
+          <span class="border-b-8 w-full lg:w-auto"> Brawl Star?</span>
+        </div>
+        <div class="flex justify-center items-center h-full">
+          <div
+            class="phone mb-20 md:mb-10 lg:mb-5 absolute border-black rounded-3xl border-l-[20px] border-r-[40px] border-y-[6px] h-[140px] w-[300px] md:h-[200px] md:w-[400px] lg:h-[250px] lg:w-[500px] overflow-hidden flex justify-start items-center"
+          >
+            <div
+              class="rounded-r-xl bg-black w-[20px] h-[100px] absolute"
+            ></div>
+            <img
+              class="object-cover h-full"
+              src="assets/gameplay.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="what-desc flex-wrap flex text-black justify-between items-center font-bold text-2xl"
+          >
+            <div
+              id="what-text1"
+              class="w-[40%] pt-20 md:pt-32 pb-40 pl-10 text-end"
+            >
+              MOBA Game&nbsp
+            </div>
+            <div id="what-text2" class="w-[40%] pt-20 md:pt-32 pb-40 pr-10">
+              &nbspThird Person Hero Shooter
+            </div>
+            <div id="what-text1" class="w-[40%] py-40 pl-10 text-end">
+              Published By Supercell&nbsp
+            </div>
+            <div id="what-text2" class="w-[40%] py-40 pr-10">
+              &nbspReleased on December 2018
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ###################################################################### -->
+      <section id="modes" class="pt-20">
+        <div
+          class="title1 flex justify-center items-center text-center text-[50px] md:text-[70px] lg:text-[90px] font-[600] flex-wrap"
+        >
+          <span class="text-yellow-500">Modes&nbsp</span> In&nbsp
+          <span class="border-b-8 w-full lg:w-[auto]"> Brawl Star?</span>
+        </div>
+        <div>
+          <div class="center">
+            <div class="bgimage absolute w-full hidden md:flex">
+              <img class="h-[500px]" src="assets/trio.svg" alt="" />
+            </div>
+            <div class="stack-area h-[200vh] md:h-[300vh]">
+              <div class="left mt-5">
+                <div class="title-mode text-center">Trio Modes</div>
+              </div>
+              <div class="right">
+                <div class="cards">
+                  <div class="card">
+                    <div class="sub">Gem Grab</div>
+                    <div class="content">
+                      Collect The Highest Number of Gems!
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="sub">Bounty</div>
+                    <div class="content">Kill as Many as You Want!</div>
+                  </div>
+                  <div class="card">
+                    <div class="sub">Heist</div>
+                    <div class="content">Defend Yours, Attack Theirs!</div>
+                  </div>
+                  <div class="card">
+                    <div class="sub">Brawl Ball</div>
+                    <div class="content">Shoot Ball, Kill Them!</div>
+                  </div>
+                  <div class="card">
+                    <div class="sub">Hot Zone</div>
+                    <div class="content">Capture the Zone!</div>
+                  </div>
+                  <div class="card">
+                    <div class="sub">Knockout</div>
+                    <div class="content">Knock or Knocked!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="center2">
+            <div class="bgimage absolute w-full justify-end hidden md:flex">
+              <img class="h-[500px]" src="assets/duo.svg" alt="" />
+            </div>
+            <div class="stack-area2 h-[200vh] md:h-[300vh]">
+              <div class="left2">
+                <div class="title-mode2 text-center">Solo/Duo Modes</div>
+              </div>
+              <div class="right2">
+                <div class="cards2">
+                  <div class="card2">
+                    <div class="sub2">Showdown</div>
+                    <div class="content2">
+                      Test your real Battle-Royale skill
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="sub2">Duels</div>
+                    <div class="content2">1v1 Arena for Real Fighter</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ###################################################################### -->
+      <section id="brawlers" class="w-[100wh] flex flex-col">
+        <div
+          class="title1 flex justify-center items-center text-center text-[50px] md:text-[70px] lg:text-[90px] font-[600] pt-20 pb-10 flex-wrap"
+        >
+          <span class="text-yellow-500">Brawlers&nbsp</span> In&nbsp
+          <span class="border-b-8 w-full lg:w-auto"> Brawl Star?</span>
+        </div>
+        <div
+          id="rare-section"
+          class="h-[85px] flex flex-col transition-all duration-300 justify-start items-center"
+        >
+          <div
+            id="rare-box"
+            class="rare flex flex-col w-[75%] h-0 justify-start items-center bg-green-800 transition-all duration-300 rounded-xl"
+          >
+            <div
+              onclick="brawlerRare()"
+              class="brawler-title font-[600] text-3xl md:text-4xl lg:text-5xl py-5 w-full text-center cursor-pointer bg-green-500 rounded-xl"
+            >
+              RARE
+            </div>
+            <div
+              id="rare-brawler"
+              class="brawler-content flex flex-wrap gap-x-3 justify-center items-center relative w-full h-0 transition-all duration-300"
+            >
+              <div
+                class="list-brawler flex flex-wrap gap-x-3 gap-y-0 w-full h-full justify-center items-center absolute"
+              >
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Rosa.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      ROSA
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Poco.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      POCO
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/El-Primo.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      EL-PRIMO
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Nita.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      NITA
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Barley.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BARLEY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Brock.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BROCK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Bull.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BULL
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-green-300 rounded h-[15%] md:h-[31%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Colt.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      COLT
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ########################## -->
+        <div
+          id="superrare-section"
+          class="h-[85px] w-[100wh] flex flex-col transition-all duration-300 items-center"
+        >
+          <div
+            id="superrare-box"
+            class="rare flex flex-col w-[75%] h-0 justify-start items-center bg-blue-800 transition-all duration-300 rounded-xl"
+          >
+            <div
+              onclick="brawlerSuperRare()"
+              class="brawler-title font-[600] text-3xl md:text-4xl lg:text-5xl py-5 w-full text-center cursor-pointer bg-blue-500 rounded-xl"
+            >
+              SUPERRARE
+            </div>
+            <div
+              id="superrare-brawler"
+              class="brawler-content flex flex-wrap gap-x-3 justify-center items-center relative w-full h-0 transition-all duration-300"
+            >
+              <div
+                class="list-brawler flex flex-wrap gap-x-3 gap-y-0 w-full h-full justify-center items-center absolute"
+              >
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Gus.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GUS
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Jacky.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      JACKY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/8-Bit.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      8-BIT
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Carl.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CARL
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Tick.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      TICK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Penny.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      PENNY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Darryl.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      DARRYL
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Dynamike.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      DYNAMIKE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Jessie.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      JESSIE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-blue-300 rounded h-[15%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Rico.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      RICO
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ########################## -->
+        <div
+          id="epic-section"
+          class="h-[85px] w-[100wh] flex flex-col transition-all duration-300 items-center"
+        >
+          <div
+            id="epic-box"
+            class="rare flex flex-col w-[75%] h-0 justify-start items-center bg-purple-800 transition-all duration-300 rounded-xl"
+          >
+            <div
+              onclick="brawlerEpic()"
+              class="brawler-title font-[600] text-3xl md:text-4xl lg:text-5xl py-5 w-full text-center cursor-pointer bg-purple-500 rounded-xl"
+            >
+              EPIC
+            </div>
+            <div
+              id="epic-brawler"
+              class="brawler-content flex flex-wrap gap-x-3 justify-center items-center relative w-full h-0 transition-all duration-300"
+            >
+              <div
+                class="list-brawler flex flex-wrap gap-x-3 gap-y-0 w-full h-full justify-center items-center absolute"
+              >
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Angelo.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      ANGELO
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Larry-&-Lawrie.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      LARRY & LAWRY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Pearl.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      PEARL
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Hank.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      HANK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Maisie.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MAISIE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Mandy.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MANDY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Sam.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SAM
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Bonnie.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BONNIE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Lola.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      LOLA
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Ash.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      ASH
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Griff.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GRIFF
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Grom.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GROM
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Belle.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BELLE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Stu.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      STU
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Edgar.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      EDGAR
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Colette.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      COLETTE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Nani.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      NANI
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Gale.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GALE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Emz.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      EMZ
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Bea.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BEA
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Bibi.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BIBI
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Frank.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      FRANK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Pam.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      PAM
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Piper.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      PIPER
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-purple-300 rounded h-[5%] md:h-[10%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Bo.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BO
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ########################## -->
+        <div
+          id="mythic-section"
+          class="h-[85px] w-[100wh] flex flex-col transition-all duration-300 items-center"
+        >
+          <div
+            id="mythic-box"
+            class="rare flex flex-col w-[75%] h-0 justify-start items-center bg-red-800 transition-all duration-300 rounded-xl"
+          >
+            <div
+              onclick="brawlerMythic()"
+              class="brawler-title font-[600] text-3xl md:text-4xl lg:text-5xl py-5 w-full text-center cursor-pointer bg-red-500 rounded-xl"
+            >
+              MYTHIC
+            </div>
+            <div
+              id="mythic-brawler"
+              class="brawler-content flex flex-wrap gap-x-3 justify-center items-center relative w-full h-0 transition-all duration-300"
+            >
+              <div
+                class="list-brawler flex flex-wrap gap-x-3 gap-y-0 w-full h-full justify-center items-center absolute"
+              >
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Melodie.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MELODIE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Mico.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MICO
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Charlie.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CHARLIE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Chuck.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CHUCK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Doug.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      DOUG
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Willow.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      WILLOW
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/R-T.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      R-T
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Gray.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GRAY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Buster.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BUSTER
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Otis.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      OTIS
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Janet.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      JANET
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Eve.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      EVE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Fang.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      FANG
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Buzz.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BUZZ
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Squeak.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SQUEAK
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Ruffs.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      RUFFS
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Byron.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      BYRON
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Lou.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      LOU
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Sprout.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SPROUT
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Max.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MAX
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Mr-P.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MR. P
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Gene.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      GENE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Tara.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      TARA
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-epic bg-red-300 rounded h-[6%] md:h-[11%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Mortis.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MORTIS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ########################## -->
+        <div
+          id="legendary-section"
+          class="h-[85px] w-[100wh] flex flex-col transition-all duration-300 items-center"
+        >
+          <div
+            id="legendary-box"
+            class="rare flex flex-col w-[75%] h-0 justify-start items-center bg-yellow-800 transition-all duration-300 rounded-xl"
+          >
+            <div
+              onclick="brawlerLegendary()"
+              class="brawler-title font-[600] text-3xl md:text-4xl lg:text-5xl py-5 w-full text-center cursor-pointer bg-yellow-500 rounded-xl"
+            >
+              LEGENDARY
+            </div>
+            <div
+              id="legendary-brawler"
+              class="brawler-content flex flex-wrap gap-x-3 justify-center items-center relative w-full h-0 transition-all duration-300"
+            >
+              <div
+                class="list-brawler flex flex-wrap gap-x-3 gap-y-0 w-full h-full justify-center items-center absolute"
+              >
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Kit.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      KIT
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Cordelius.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CORDELIUS
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Chester.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CHESTER
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Meg.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      MEG
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Amber.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      AMBER
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Surge.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SURGE
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Sandy.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SANDY
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Leon.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      LEON
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Crow.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      CROW
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brawl-rare bg-yellow-300 rounded h-[14%] md:h-[23%] w-[40%] md:w-[20%] flex justify-center items-center overflow-hidden [perspective:1000px] group"
+                >
+                  <div
+                    class="inner relative w-full h-full text-center justify-center items-center transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
+                  >
+                    <div
+                      id="frontbrawl"
+                      class="flex justify-center items-center absolute w-full h-full [backface-visibility:hidden]"
+                    >
+                      <img
+                        class="object-cover w-[100px] h-[100px] border-[4px] rounded border-black"
+                        src="assets/Spike.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      id="backbrawl"
+                      class="font-[700] text-black text-2xl md:text-4xl flex justify-center items-center absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]"
+                    >
+                      SPIKE
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ########################## -->
+      </section>
+      <!-- ###################################################################### -->
+      <section id="Currency" class="min-h-screen">
+        <div
+          class="title1 flex justify-center items-center text-center text-[50px] md:text-[70px] lg:text-[90px] font-[600] pt-32 pb-10 flex-wrap"
+        >
+          <span class="text-yellow-500">Currency&nbsp</span> In&nbsp
+          <span class="border-b-8 w-full lg:w-auto"> Brawl Star?</span>
+        </div>
+        <div class="flex flex-row justify-center flex-wrap w-full">
+          <div
+            id="img-Currency"
+            class="w-[80%] md:w-[40%] h-[200px] relative overflow-hidden object-center justify-center"
+          >
+            <div
+              class="flex justify-center w-full h-full items-center static md:absolute"
+            >
+              <img
+                class="absolute object-center h-[100px] md:h-[150px]"
+                src="assets/gems.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-center absolute w-full h-full">
+              <img class="absolute shiny1" src="assets/shiny.svg" alt="" />
+            </div>
+          </div>
+          <div
+            id="text-Currency"
+            class="w-[80%] md:w-[40%] flex flex-col justify-center items-center text-center"
+          >
+            <h1 class="font-bold text-3xl lg:text-4xl mb-5">GEMS</h1>
+            The premium currency in Brawl Stars. Can buy cosmetics, Brawlers
+            from the Starr Road and the Brawl Pass. Gems can be bought for money
+            or obtained in tiers in the free (or paid, beginning on 4 January
+            2023) portion of the Brawl Pass. Gems are also rewards in certain
+            seasonal events.
+          </div>
+        </div>
+        <div class="flex flex-row-reverse justify-center flex-wrap">
+          <div
+            id="img-Currency"
+            class="w-[80%] md:w-[40%] h-[200px] relative overflow-hidden object-center"
+          >
+            <div
+              class="flex justify-center items-center static md:absolute w-full h-full"
+            >
+              <img
+                class="absolute object-center h-[100px] md:h-[150px]"
+                src="assets/coins.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-end absolute w-full h-full">
+              <img class="absolute shiny2" src="assets/shiny.svg" alt="" />
+            </div>
+          </div>
+          <div
+            id="text-Currency"
+            class="w-[80%] md:w-[40%] flex justify-center items-center text-center flex-col"
+          >
+            <h1 class="font-bold text-3xl lg:text-4xl mb-5">COINS</h1>
+            Used to upgrade Brawlers and buy Gadgets, Star Powers and Gears for
+            Brawlers. They can be purchased with Gems, bought from the Shop,
+            found in the Brawl Pass, Starr Drops, the Trophy Road, Challenges
+            and events.
+          </div>
+        </div>
+        <div class="flex flex-row justify-center flex-wrap">
+          <div
+            id="img-Currency"
+            class="w-[80%] md:w-[40%] h-[200px] relative overflow-hidden object-center"
+          >
+            <div
+              class="static md:absolute w-full h-full flex justify-center items-center"
+            >
+              <img
+                class="absolute object-center h-[100px] md:h-[150px]"
+                src="assets/power-point.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-center">
+              <img class="absolute shiny3" src="assets/shiny.svg" alt="" />
+            </div>
+          </div>
+          <div
+            id="text-Currency"
+            class="w-[80%] md:w-[40%] flex justify-center items-center text-center flex-col"
+          >
+            <h1 class="font-bold text-3xl lg:text-4xl mb-5">POWER POINT</h1>
+            Used to upgrade brawlers up to power 11, along with coins. Mostly
+            found in the same way as coins, but they can only be purchased in
+            special offers.
+          </div>
+        </div>
+        <div class="flex flex-row-reverse justify-center flex-wrap">
+          <div
+            id="img-Currency"
+            class="w-[80%] md:w-[40%] h-[200px] relative overflow-hidden object-center flex justify-center"
+          >
+            <div
+              class="flex justify-center items-center static md:absolute w-full h-full"
+            >
+              <img
+                class="absolute object-center h-[100px] md:h-[200px]"
+                src="assets/XP.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-center absolute w-full h-full">
+              <img class="absolute shiny4" src="assets/shiny.svg" alt="" />
+            </div>
+          </div>
+          <div
+            id="text-Currency"
+            class="w-[80%] md:w-[40%] flex justify-center items-center text-center flex-col"
+          >
+            <h1 class="font-bold text-3xl lg:text-4xl mb-5">XP</h1>
+            Used to progress through the Brawl Pass. They were originally called
+            tokens. Available through daily and seasonal quests.
+          </div>
+        </div>
+        <div class="flex flex-row justify-center flex-wrap">
+          <div
+            id="img-Currency"
+            class="w-[80%] md:w-[40%] h-[200px] relative overflow-hidden object-center"
+          >
+            <div
+              class="flex justify-center items-center static md:absolute w-full h-full"
+            >
+              <img
+                class="absolute object-center h-[100px] md:h-[150px]"
+                src="assets/ticket.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex justify-center absolute w-full h-full">
+              <img class="absolute shiny1" src="assets/shiny.svg" alt="" />
+            </div>
+          </div>
+          <div
+            id="text-Currency"
+            class="w-[80%] md:w-[40%] flex flex-col justify-center items-center text-center"
+          >
+            <h1 class="font-bold text-3xl lg:text-4xl mb-5">TICKET</h1>
+            Tickets are used to take part in the Mega Pig Club Event. You'll be
+            given a limited number to use at the beginning of every event.
+            Tickets cannot be purchased or replaced, even when you leave a Club.
+          </div>
+        </div>
+      </section>
+      <!-- ##################################################################### -->
+      <section id="Download" class="min-h-screen">
+        <div
+          class="title1 flex justify-center items-center text-center text-[50px] md:text-[70px] lg:text-[90px] font-[600] pt-32 pb-10 flex-wrap"
+        >
+          <span class="text-yellow-500">Download&nbsp</span>
+          <span class="border-b-8 w-full lg:w-auto"> Brawl Star?</span>
+        </div>
+
+        <div
+          id="download"
+          class="w-full h-[90vh] flex justify-center items-end"
+        >
+          <div
+            class="flex flex-col text-center text-3xl font-bold gap-10 uwu rounded-xl mb-28 w-[80%]"
+          >
+            Available In
+            <div class="flex gap-10 flex-wrap justify-center">
+              <div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en_US&pli=1"
+                  ><img class="h-[60px]" src="assets/playstore.webp" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="https://apps.apple.com/us/app/brawl-stars/id1229016807"
+                  ><img class="h-[60px]" src="assets/appstore.webp" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="text-center bg-black text-white text-lg py-1">
+        Adib &copy 2024
+      </div>
+    </footer>
+
+    <!-- #################################################################################################### -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- NAVBAR -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 500);
+      });
+    </script>
+
+    <!-- HEADER PARALAX -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let back = document.getElementById("back");
+        let mid = document.getElementById("mid");
+        let top = document.getElementById("front");
+        let logoo = document.getElementById("logo-head");
+
+        window.addEventListener("scroll", function () {
+          let value = window.scrollY;
+          // back.style.top = value * 1 + "px";
+          mid.style.top = value * 0.5 + "px";
+          top.style.top = value * 0.3 + "px";
+          logoo.style.top = value * 0.1 + "px";
+        });
+      });
+    </script>
+
+    <!-- MODES -->
+    <script>
+      let cards = document.querySelectorAll(".card");
+      let stackArea = document.querySelector(".stack-area");
+
+      function rotateCards() {
+        let angle = 0;
+        cards.forEach((card) => {
+          if (card.classList.contains("active")) {
+            card.style.transform = `translate(-50%, -120vh) rotate(-48deg)`;
+          } else {
+            card.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+            angle = angle - 10;
+          }
+        });
+      }
+
+      rotateCards();
+
+      window.addEventListener("scroll", () => {
+        let proportion =
+          stackArea.getBoundingClientRect().top / window.innerHeight;
+        if (proportion <= 0) {
+          let n = cards.length;
+          let index = Math.ceil((proportion * n) / 1.5);
+          index = Math.abs(index) - 1;
+          for (let i = 0; i < n; i++) {
+            if (i <= index) {
+              cards[i].classList.add("active");
+            } else {
+              cards[i].classList.remove("active");
+            }
+          }
+          rotateCards();
+        }
+      });
+
+      //Code for responsiveness
+
+      function adjust() {
+        let windowWidth = window.innerWidth;
+        let left = document.querySelector(".left");
+        left.remove();
+        if (windowWidth < 800) {
+          stackArea.insertAdjacentElement("beforebegin", left);
+        } else {
+          stackArea.insertAdjacentElement("afterbegin", left);
+        }
+      }
+      adjust();
+
+      //detect Resize
+
+      window.addEventListener("resize", adjust);
+    </script>
+    <!-- -->
+    <script>
+      let cards2 = document.querySelectorAll(".card2");
+      let stackArea2 = document.querySelector(".stack-area2");
+
+      function rotateCards2() {
+        let angle = 0;
+        cards2.forEach((card2) => {
+          if (card2.classList.contains("active2")) {
+            card2.style.transform = `translate(-50%, -120vh) rotate(-48deg)`;
+          } else {
+            card2.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+            angle = angle - 10;
+          }
+        });
+      }
+
+      rotateCards2();
+
+      window.addEventListener("scroll", () => {
+        let proportion2 =
+          stackArea2.getBoundingClientRect().top / window.innerHeight;
+        if (proportion2 <= 0) {
+          let n2 = cards2.length;
+          let index2 = Math.ceil((proportion2 * n2) / 1);
+          index2 = Math.abs(index2) - 1;
+          for (let i = 0; i < n2; i++) {
+            if (i <= index2) {
+              cards2[i].classList.add("active2");
+            } else {
+              cards2[i].classList.remove("active2");
+            }
+          }
+          rotateCards2();
+        }
+      });
+
+      //Code for responsiveness
+
+      function adjust() {
+        let windowWidth = window.innerWidth;
+        let left = document.querySelector(".left2");
+        left.remove();
+        if (windowWidth < 800) {
+          stackArea2.insertAdjacentElement("beforebegin", left);
+        } else {
+          stackArea2.insertAdjacentElement("afterbegin", left);
+        }
+      }
+      adjust();
+
+      //detect Resize
+
+      window.addEventListener("resize", adjust);
+    </script>
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- BRAWLER -->
+    <script>
+      const raresect = document.getElementById("rare-section");
+      const rarebox = document.getElementById("rare-box");
+      const rare = document.getElementById("rare-brawler");
+
+      const superraresect = document.getElementById("superrare-section");
+      const superrarebox = document.getElementById("superrare-box");
+      const superrare = document.getElementById("superrare-brawler");
+
+      const epicsect = document.getElementById("epic-section");
+      const epicbox = document.getElementById("epic-box");
+      const epic = document.getElementById("epic-brawler");
+
+      const mythicsect = document.getElementById("mythic-section");
+      const mythicbox = document.getElementById("mythic-box");
+      const mythic = document.getElementById("mythic-brawler");
+
+      const legendarysect = document.getElementById("legendary-section");
+      const legendarybox = document.getElementById("legendary-box");
+      const legendary = document.getElementById("legendary-brawler");
+
+      function brawlerRare() {
+        rare.classList.toggle("h-0");
+        rare.classList.toggle("h-[90%]");
+        rarebox.classList.toggle("h-0");
+        rarebox.classList.toggle("h-full");
+        raresect.classList.toggle("h-[85px]");
+        raresect.classList.toggle("h-[80vh]");
+      }
+      function brawlerSuperRare() {
+        superrare.classList.toggle("h-0");
+        superrare.classList.toggle("h-[90%]");
+        superrarebox.classList.toggle("h-0");
+        superrarebox.classList.toggle("h-full");
+        superraresect.classList.toggle("h-[85px]");
+        superraresect.classList.toggle("h-[90vh]");
+      }
+      function brawlerEpic() {
+        epic.classList.toggle("h-0");
+        epic.classList.toggle("h-[90%]");
+        epicbox.classList.toggle("h-0");
+        epicbox.classList.toggle("h-[200%]");
+        epicsect.classList.toggle("h-[85px]");
+        epicsect.classList.toggle("h-[210vh]");
+      }
+      function brawlerMythic() {
+        mythic.classList.toggle("h-0");
+        mythic.classList.toggle("h-[90%]");
+        mythicbox.classList.toggle("h-0");
+        mythicbox.classList.toggle("h-[200%]");
+        mythicsect.classList.toggle("h-[85px]");
+        mythicsect.classList.toggle("h-[180vh]");
+      }
+      function brawlerLegendary() {
+        legendary.classList.toggle("h-0");
+        legendary.classList.toggle("h-[90%]");
+        legendarybox.classList.toggle("h-0");
+        legendarybox.classList.toggle("h-[200%]");
+        legendarysect.classList.toggle("h-[85px]");
+        legendarysect.classList.toggle("h-[100vh]");
+      }
+    </script>
+
+    <!-- NAVBAR COMPRESS -->
+    <script>
+      const navbuton = document.querySelector(".navbuton");
+      function ontogglemenu(e) {
+        e.name = e.name === "menu-outline" ? "close" : "menu-outline";
+        navbuton.classList.toggle("translate-x-[3000px]");
+      }
+    </script>
+  </body>
+</html>
